@@ -20,7 +20,7 @@ nav {
   border: 1px solid black;
   background-color: gray;
   text-align: right;
-  position: fixed;
+  position: relative;
   height: 70px;
 }
 
