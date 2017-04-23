@@ -20,21 +20,23 @@
   <!--  <img src="images/icon.png" class="icon-img"> -->
   <h3>Greg's List</h3>
     <ul>
-      <li><a href="display-exercise.html">Post</a></li>
-      <li><a href="float-exercise.html">Account</a></li>
+      <li><a href="display-exercise.html" class="nav-link">Post</a></li>
+      <li><a href="float-exercise.html" class="nav-link">Account</a></li>
     </ul>
   </nav>
 
-  <div class='search'>
-    <h4>Search Jobs</h4>
-    <input placeholder="search software jobs">
-    <img src="images/magnifying_glass.png" alt='picture of a magnifying glass' class='magnify'>
-
-  </div>
+  <section class='search'>
+  <form action="#">
+    <label for="search">Search Jobs</label>
+    <input type="text" class=searcher placeholder="search software jobs">
+    <input type="image" img src="images/magnifying_glass.png" alt='picture of a magnifying glass' class='magnify' role="button">
+</form>
+  </section>
 
   <div class='items'>
-    <p><em> prev </em><em> 1 to 100 of 179 </em><em> next </em></p>
-
+       <a class="pages-button">&lt; prev</a>
+    <span class= "items-display"> 1 to 100 of 179 </span>
+    <a class="pages-button">next &gt;</a>
   </div>
 
 
