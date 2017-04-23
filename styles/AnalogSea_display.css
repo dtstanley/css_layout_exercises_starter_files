@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /*background-color: royalblue*/
   }
 
 body {
@@ -7,12 +8,12 @@ body {
 	}
 
 main {
-	padding: 60px;
+	padding: 30px 800px 30px 100px;
 	background-color: royalblue;
 	  font-size: 16px;
 	  font-family: 'Caveat', helvetica, sans-serif;
-	margin-left: auto;
-  	margin-right: auto;
+/*	margin-left: auto;
+  	margin-right: auto;		*/
 }
 
 .container {
@@ -23,10 +24,70 @@ main {
   margin-right: auto;
 }
 
+/*The 2 lines below centered the logo*/
+.logo{
+	display: block;
+ /*  height: 35px;	
+     width: auto;	*/
+    margin: 0 auto 30px;	
+}
+
+.asform {
+    margin: 0 auto;
+    width: 400px;
+    padding: 40px;
+    border-radius: 3px;
+    background: white;
+}
+
+/*The lines below almost centered the labels, inputs and button*/
+.asform legend {
+    text-align: center;
+    font-weight: 300;
+    color: #565656;
+    margin: 0 auto 45px;
+    font-size: 35px;
+    line-height: 38px;
+    letter-spacing: 0;
+}
+
+input, button {
+    background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+}
+
+input:focus, button:focus {
+    border-color: #E7E7E7;
+    box-shadow: none;
+}
+
 .button{
     background-color: lightgreen;
 }
 
 .button:hover{
 	background-color:darkgreen;
+}
+
+.footer a:hover { 
+	color: orange; 
+}
+
+/*The lines below centered the footer*/
+.footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
 }
