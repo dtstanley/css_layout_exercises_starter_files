@@ -1,31 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
-nav {
-  height: 60px;
+ position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
   background-color: grey;
-  position: fixed;
-  width: 100%;
-}
-
-nav .icon-img {
-  height: 50px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 50%;
-  vertical-align: middle;
   border: 1px solid black;
+
 }
 
-nav ul {
-  display: inline-block;
-  list-style: none;
+body {
+  /*background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;*/  
+  margin: 0; /* Tricky: override browser default */
+  padding: 80px;
+  font-family: "Caveat", sans-serif;
 }
 
-nav li {
+.top-nav {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+  padding: 0 6px;
+}
+
+/* Tricky / Interaction not obvious and not annotated, first :hover */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.rl-logo {
   display: inline-block;
+  border-radius: 100%;
+  font-weight: 800;
+}
+
+.rl-logo h1 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.search {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.search input {
+  font-family: "Caveat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+
+.search .search-button {
+  font-size: 17px;
+  width: 37px;
+  height: auto;
+  padding: 2px 6px 3px 6px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
 }
 
 nav li::after {
@@ -37,10 +94,7 @@ nav a:hover {
   color: black;
 }
 
-body {
-  /*background: url(../images/outerspace_landscape.jpeg) no-repeat;
-  background-size: cover;*/
-}
+
 
 main {
   padding-top: 90px;
@@ -74,15 +128,10 @@ main {
 
 .magnify, .search {
   position: absolute;
-  width: 30px;
+  width: 50px;
 }
 
 .magnify {
   top: 80px;
   left: 200px;
-}
-
-.spacedog {
-  bottom: -120px;
-  right: -60px;
 }
