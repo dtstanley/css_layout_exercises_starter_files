@@ -1,55 +1,59 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>CSS Lesson 5 Challenge: Greg's List</title>
-  <meta charset="utf-8" name="description" content="Challenge exercise called Greg's List for Thinkful's front end web development course">
-
-  <!-- fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
-
-  <!-- reset -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
-
-  <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
-  <link rel="stylesheet" type="text/css" href="styles/Gregs_List.css">
+    <title>CSS Lesson 5 Challenge: Greg's List</title>
+    <meta charset="utf-8" name="description" content="Challenge exercise called Greg's List for Thinkful's front end web development course">
+    <!-- fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <!-- reset -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/Gregs_List.css">
 </head>
+
 <body>
-  <!-- put your nav code in the nav element-->
-  <nav class="container">
-  <!--  <img src="images/icon.png" class="icon-img"> -->
-  <h3>Greg's List</h3>
-    <ul>
-      <li><a href="display-exercise.html" class="nav-link">Post</a></li>
-      <li><a href="float-exercise.html" class="nav-link">Account</a></li>
-    </ul>
-  </nav>
-
-  <section class='search'>
-  <form action="#">
-    <label for="search">Search Jobs</label>
-    <input type="text" class=searcher placeholder="search software jobs">
-    <input type="image" img src="images/magnifying_glass.png" alt='picture of a magnifying glass' class='magnify' role="button">
-</form>
-  </section>
-
-  <div class='items'>
-       <a class="pages-button">&lt; prev</a>
-    <span class= "items-display"> 1 to 100 of 179 </span>
-    <a class="pages-button">next &gt;</a>
-  </div>
-
-
-  <main>
-    <div class="calendar">
-      <div class="box">
-
-        <p><em>June 22 </em><strong>>Technical Project Manager </strong><em>Midtown East</em></p>
-        <p><em>June 21 </em><strong>Frontend Developer </strong><em>SoHo</em></p>
-        <p><em>June 20 </em><strong>Senior Python Developer / Cofounder </strong><em>Flatiron</em></p>
-
-      </div>
+    <!-- put your nav code in the nav element-->
+    <nav class="container">
+        <!--  <img src="images/icon.png" class="icon-img"> -->
+        <h3>Greg's List</h3>
+        <ul>
+            <li><a href="display-exercise.html" class="nav-link">Post</a></li>
+            <li><a href="float-exercise.html" class="nav-link">Account</a></li>
+        </ul>
+    </nav>
+    <section class='search'>
+        <form action="#">
+            <label for="search">Search Jobs</label>
+            <input type="text" class=searcher placeholder="search software jobs">
+            <input type="image" img src="images/magnifying_glass.png" alt='picture of a magnifying glass' class='magnify' role="button">
+        </form>
+    </section>
+    <div class='items'>
+        <a class="pages-button">&lt; prev</a>
+        <span class="items-display"> 1 to 100 of 179 </span>
+        <a class="pages-button">next &gt;</a>
     </div>
-  </main>
+    <main>
+        <ul class="calendar">
+            <li class="listing">
+                <span class="listing-date">June 22 </span>
+                <a href="#" class="listing-title">Technical Project Manager </a>
+                <span class="listing-location">Midtown East</span>
+            </li>
+            <li class="listing">
+                <span class="listing-date">June 21 </span>
+                <a href="#" class="listing-title">Frontend Developer </a>
+                <span class="listing-location">SoHo</span>
+            </li>
+            <li class="listing">
+                <span class="listing-date">June 20 </span>
+                <a href="#" class="listing-title">Senior Python Developer / Cofounder </a>
+                <span class="listing-location">Flatiron</span>
+            </li>
+        </ul>
+    </main>
 </body>
+
 </html>
