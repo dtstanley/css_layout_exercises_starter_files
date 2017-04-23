@@ -41,6 +41,7 @@ a:hover {
   text-decoration: underline;
 }
 
+
 .rl-logo {
   display: inline-block;
   border-radius: 100%;
@@ -54,13 +55,19 @@ a:hover {
   font-size: 18px;
 }
 
-.search {
-  margin-bottom: 30px;
-}
 
 label {
   display: block;
   margin-bottom: 8px;
+}
+/*
+.magnify {
+    height: 100%;
+}
+*/
+
+.search {
+  margin-top: 100px;
 }
 
 .search input {
@@ -71,9 +78,10 @@ label {
   height: 30px;
   border: 1px solid #DDDDDD;
   border-radius: 3px;
-  padding: 0 5px 0 8px;
+  padding: 0px 5px 0px 8px;
   width: 400px;
 }
+
 
 .search .search-button {
   font-size: 17px;
@@ -85,19 +93,62 @@ label {
   border-radius: 3px;
 }
 
+
+.items {
+  display: inline-block; /* Tricky, this could start wrapping!  */
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.items-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.items-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.listings .calendar {
+  padding: 0;
+}
+
+.listing .calendar {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
 nav li::after {
   content: "|";
   margin-left: 5px;
 }
 
+/*
 nav a:hover {
   color: black;
 }
 
-
-
-main {
-  padding-top: 90px;
+ padding-top: 90px;
   min-width: 1000px;
 }
 
@@ -106,32 +157,18 @@ main {
   width: 600px;
   height: 300px;
   position: relative;
-/*  border: 10px dotted green;*/
+  border: 10px dotted green;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
-.search {
-  top: 120px;
-  left: 260px;
-  display:inline-block;
-}
 
-.items {
+/*.items {
   margin-top: 25px;
   width: 600px;
   height: 20px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-}
-
-.magnify, .search {
-  position: absolute;
-  width: 50px;
-}
-
-.magnify {
-  top: 80px;
-  left: 200px;
-}
+} 
+*/
