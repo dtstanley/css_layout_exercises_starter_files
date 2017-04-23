@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+	  
+	}
+
+main {
+	padding: 60px;
+	background-color: royalblue;
+	  font-size: 16px;
+	  font-family: 'Caveat', helvetica, sans-serif;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button{
+    background-color: lightgreen;
+}
+
+.button:hover{
+	background-color:darkgreen;
+}
