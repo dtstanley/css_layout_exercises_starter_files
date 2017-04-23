@@ -1,5 +1,17 @@
-main {
-  width: 300px;
+* {
+  color: white;
+}
+
+.main {
+  width: 600px
+  height:300px;
+  border: 10px green dotted;
+  margin: 300px;
+  padding: 300px;
+}
+
+.navgtr{
+	padding: 60px;
 }
 
 nav {
@@ -8,11 +20,69 @@ nav {
   border: 1px solid black;
   background-color: gray;
   text-align: right;
-  position: relative;
-  height: 180px;
+  position: fixed;
+  height: 70px;
 }
 
-img {
-	position: absolute;
-  	left: 10px;
+nav.icons {
+	/*position: absolute;*/
+  	height:50px;
+  	margin-top: 5px;
+  	margin-bottom: 5px;
+  	border-radius: 50%;
+  	vertical-align: middle;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+
+main {
+  padding-top: 90px;
+  min-width: 1000px;
+}
+
+.pet-box {
+  margin-top: 150px;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border: 10px dotted green;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.spacecat, .spacedog {
+  position: absolute;
+  width: 200px;
+}
+
+.spacecat {
+  top: -90px;
+  left: -90px;
+}
+
+.spacedog {
+  bottom: -120px;
+  right: -60px;
 }
