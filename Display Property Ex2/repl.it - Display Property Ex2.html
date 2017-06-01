@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Product">
+  <head>
+    <title>repl.it - Display Property Ex2</title>
+
+    <!-- css -->
+    <link href="//fonts.googleapis.com/css?family=Questrial|Raleway:400,100|Crimson+Text" rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="/public/css/print.css" media="print" />
+    <link type="text/css" rel="stylesheet" href="/public/css/loading.css" />
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="apple-touch-icon" href="/public/images/apple-touch-icon.png" type="image/png" />
+
+    <link rel="alternate" type="application/json+oembed"
+          href="https://repl.it/data/oembed?url=https%3A%2F%2Frepl.it%2FITsH%2F11"
+          title="Display Property Ex2" />
+
+    <!-- Segment Analytics -->
+    <script type="text/javascript">
+      !function(){
+        var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+        analytics.load('jdVID8rHoI7wkCBDjKmjApGBGWclWIKJ');
+      }}();
+    </script>
+
+    <!-- Universal Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-25629695-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <!-- Session -->
+    <script>REPLIT_DATA = {"id":9076904,"session_id":"ITsH","revision_id":"11","editor_text":"","console_dump":" ","is_project":true,"time_created":"2017-05-26T22:20:51.826Z","time_updated":null,"language":"web_project","files":{"1270457":{"id":1270457,"name":"index.html","content":"&lt;!DOCTYPE html&gt;\r\n&lt;html&gt;\r\n\r\n&lt;head&gt;\r\n    &lt;title&gt;CSS Layout Exercises | display property&lt;/title&gt;\r\n    &lt;meta charset=&quot;utf-8&quot; name=&quot;description&quot; content=&quot;Layout exercise on &#96;display&#96; property for Thinkful&#39;s front end web development course&quot;&gt;\r\n    &lt;!-- fonts  --&gt;\r\n    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; rel=&quot;stylesheet&quot;&gt;\r\n    &lt;!-- reset --&gt;\r\n    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css&quot;&gt;\r\n    &lt;!-- styles --&gt;\r\n    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;styles/main.css&quot;&gt;\r\n    &lt;!-- your styles will go in display-page.css --&gt;\r\n    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;styles/display-page.css&quot;&gt;\r\n&lt;/head&gt;\r\n\r\n&lt;body&gt;\r\n    &lt;!-- your HTML here to implement the colored box design --&gt;\r\n    &lt;p&gt;\r\n        &lt;main&gt;\r\n            &lt;div class=&quot;inner inner-one&quot;&gt;&lt;/div&gt;\r\n            &lt;div class=&quot;inner inner-two&quot;&gt;&lt;/div&gt;\r\n            &lt;br&gt;\r\n            &lt;div class=&quot;inner inner-three&quot;&gt;&lt;/div&gt;\r\n            &lt;div class=&quot;inner inner-four&quot;&gt;&lt;/div&gt;\r\n            &lt;div class=&quot;inner inner-five&quot;&gt;&lt;/div&gt;\r\n        &lt;/main&gt;\r\n    &lt;/p&gt;\r\n&lt;/body&gt;\r\n\r\n&lt;/html&gt;\r\n","index":0},"1270561":{"id":1270561,"name":"index.css","content":"main {\r\n  padding: 30px;\r\n  /* setting font-size to 0 on the parent of a set of inline block elements removes white space between them.    */\r\n  font-size: 0;\r\n  text-align: center\r\n\r\n}\r\n\r\n.inner {\r\n  height: 500px;\r\n  display: inline-block;\r\n  font-size: 0;\r\n  max-width: 800px;\r\n  /*center a container within another container:these are working together*/\r\n  width:80%;\r\n  margin:0 auto;\r\n\r\n}\r\n\r\n.inner-one {\r\n  background-color: green;\r\n  width: 48%;\r\n  height: 200px;\r\n  border: 1px solid black\r\n}\r\n\r\n.inner-two {\r\n  background-color: blue;\r\n  width: 48%;\r\n  height: 200px;  \r\n  border: 1px solid black;\r\n}\r\n\r\n.inner-three {\r\n  background-color: gray; \r\n  width: 32%; \r\n  height: 300px;\r\n  border: 1px solid black;\r\n\r\n}\r\n\r\n.inner-four {\r\n  background-color: black;\r\n  width: 32%;\r\n  height: 300px;\r\n  border: 1px solid;\r\n \r\n}\r\n\r\n.inner-five {\r\n  background-color: orange;\r\n  width: 32%;\r\n  height: 300px;\r\n  border: 1px solid black;\r\n\r\n}\r\n","index":1}},"user_session":{"session_id":1983015,"user_id":288052,"title":"Display Property Ex2","description":null,"views":0},"owner":288052,"title":"Display Property Ex2"}</script>
+    <script>GOVAL_TOKEN={"time_created":1495928027691,"msg_mac":"YZTZtv7ALLDr4kLHM5BEQWxnkKFgekApVSdcXgP9csU="}</script>
+    <script>USER_DATA = {"id":288052,"email":"dtstanley2010@gmail.com","username":"dtstanley","first_name":null,"last_name":null,"password":"M+0XII6fDksl8bs/I5Ok9JoU3wt+4PvGg0EdmLzxLUaEuCIKNywqIcXWcYxzObKdGNzsYebfpmdVVKlpyhCApA==::71cea96c749448d5a2f6f94df8cafbf81ca439ac3c1d49843adb03b6c94faa474f8461fc9f13aa15da4724fd88601d416048d14a36ef51aef2ef53714296e255","organization_id":null,"editor_preferences":{"isLayoutStacked":false,"theme":"textmate","fontSize":14,"indentIsSpaces":true,"indentSize":2,"keyboardHandler":null,"wrapping":true,"autocomplete":true,"primarySplitPosition":60.719041278295606,"infiniteLoopProtection":true,"hideSnackModal":"false","hideFeaturedClassrooms":"false","hideSuggestedClassrooms":"false"},"email_notifications":true,"profile_image_id":null,"time_created":"2017-05-11T14:21:11.000Z","time_updated":"2017-05-26T22:18:28.524Z","time_deleted":null,"icon":null,"roles":[]}</script>
+    <script>CANNY_SSO_TOKEN = "d4c473dff97ffe932d1c9ec5ce85c14bba7a8c8931808006be61847da7666a897cbc3fe0a858bef02aa7617b1066fa3ac24fb30130a332373baf1fedd0676f7f1efa6792c484d761f7d0e3659253be8b"</script>
+
+    <!-- Facebook -->
+    <meta property="og:title" content="repl.it" />
+    <meta property="og:description" content="Powerful and simple online compiler, IDE, interpreter, and REPL. Write, run, save, and share code from your browser!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://repl.it/" />
+    <meta property="og:image" content="https://repl.it/public/images/logo-small-square.png" />
+    <meta property="og:site_name" content="repl.it" />
+    <meta property="fb:app_id" content="1775481339348651" />
+
+    <!-- G+ -->
+    <meta itemprop="name" content="repl.it" />
+    <meta itemprop="description" content="Powerful and simple online compiler, IDE, interpreter, and REPL. Write, run, save, and share code from your browser! " />
+    <meta itemprop="image" content="https://repl.it/public/images/logo-small.png" />
+
+    <!-- Mobiles -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
+
+    <!-- General -->
+    <meta name="description" content="Powerful and simple online compiler, IDE, interpreter, and REPL. Code, compile, and run code in JavaScript, Python, Ruby, Java, Node.js, Go, Scheme, C, C#, C++, Lua, CoffeeScript and much more.and more programming languages.">
+    <meta name="keywords" content="Online,Interpreters,Compilers,JavaScript,Python,Ruby,Scheme,APL,Lua,CoffeeScript,Forth,QBasic,C,C++,C#,F#,nodejs,node,terminal,console,share,run,code,coding,programming,esoteric,languages,web,REPL,Compiler">
+    <meta name="author" property="og:author" content="repl.it">
+    <meta charset="UTF-8">
+  </head>
+  <body style="margin: 0">
+    <div id="root">
+      <div class="static-header"">
+        <a class="static-logo" href="/languages">
+         <img
+           src="/public/images/logo-small.png"
+           alt="repl.it">
+        </a>
+      </div>
+      <div class="static-session-wrapper"><div class="static-session-editor"><h4>Display Property Ex2</h4><div><h4><span class="static-session-file">index.html</span></h4><code><pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;title&gt;CSS Layout Exercises | display property&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot; name=&quot;description&quot; content=&quot;Layout exercise on &#96;display&#96; property for Thinkful&#39;s front end web development course&quot;&gt;
+    &lt;!-- fonts  --&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;!-- reset --&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css&quot;&gt;
+    &lt;!-- styles --&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;styles/main.css&quot;&gt;
+    &lt;!-- your styles will go in display-page.css --&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;styles/display-page.css&quot;&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;!-- your HTML here to implement the colored box design --&gt;
+    &lt;p&gt;
+        &lt;main&gt;
+            &lt;div class=&quot;inner inner-one&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;inner inner-two&quot;&gt;&lt;/div&gt;
+            &lt;br&gt;
+            &lt;div class=&quot;inner inner-three&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;inner inner-four&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;inner inner-five&quot;&gt;&lt;/div&gt;
+        &lt;/main&gt;
+    &lt;/p&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</pre></code></div><div><h4><span class="static-session-file">index.css</span></h4><code><pre>main {
+  padding: 30px;
+  /* setting font-size to 0 on the parent of a set of inline block elements removes white space between them.    */
+  font-size: 0;
+  text-align: center
+
+}
+
+.inner {
+  height: 500px;
+  display: inline-block;
+  font-size: 0;
+  max-width: 800px;
+  /*center a container within another container:these are working together*/
+  width:80%;
+  margin:0 auto;
+
+}
+
+.inner-one {
+  background-color: green;
+  width: 48%;
+  height: 200px;
+  border: 1px solid black
+}
+
+.inner-two {
+  background-color: blue;
+  width: 48%;
+  height: 200px;  
+  border: 1px solid black;
+}
+
+.inner-three {
+  background-color: gray; 
+  width: 32%; 
+  height: 300px;
+  border: 1px solid black;
+
+}
+
+.inner-four {
+  background-color: black;
+  width: 32%;
+  height: 300px;
+  border: 1px solid;
+ 
+}
+
+.inner-five {
+  background-color: orange;
+  width: 32%;
+  height: 300px;
+  border: 1px solid black;
+
+}
+</pre></code></div></div><div class="static-session-console"><div class="static-session-loader"><div></div><div></div><div></div><div class="static-session-prompt"></div></div></div></div>
+    </div>
+
+    <!-- Application -->
+    <script src="/public/ace/ace.js?daab0a35e8ce54ab98192f18d8cc82ec"></script>
+    <script src="/public/main.ab882721621828c920ec.bundle.js"></script>
+  </body>
+</html>

@@ -4,12 +4,12 @@
   }
 
 body {
-	  
+	   background-color: royalblue;
 	}
 
 main {
-	padding: 30px 800px 30px 100px;
-	background-color: royalblue;
+/*	padding: 30px 800px 30px 100px;*/
+	/*background-color: royalblue;*/
 	  font-size: 16px;
 	  font-family: 'Caveat', helvetica, sans-serif;
 /*	margin-left: auto;
@@ -17,8 +17,8 @@ main {
 }
 
 .container {
-  width: 600px;
-  height: 600px;
+ /* width: 600px;
+  height: 600px;*/
   background-color: white;
   margin-left: auto;
   margin-right: auto;
@@ -30,6 +30,11 @@ main {
  /*  height: 35px;	
      width: auto;	*/
     margin: 0 auto 30px;	
+}
+
+.logo-cont{
+     margin: 0 auto 30px; 
+ 
 }
 
 .asform {

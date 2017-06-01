@@ -1,0 +1,108 @@
+/*CSS Reset*/
+*{
+  box-sizing: border-box;
+}
+body {
+margin:0;
+padding:80px;
+font-family:"Roboto",sans-serif;
+}
+.container{
+  /*display:block;*/
+  position: fixed;
+  /*tricky: override browser default*/
+  /*margin:0;*/
+  top:0;
+  left:0;
+  right:0;
+  padding:10px;
+  border:1px solid black;
+  font-size:100%;
+  background-color: grey;
+}
+
+.nav-top{
+  position: absolute;
+  right:10px;
+  top:10px;
+}
+
+.nav-link{
+  font-size: 18px;
+  padding:0  2px;
+}
+
+/*tricky situation/ interaction not obvious nor annotted*/
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.logo{
+ /*display: inline-block;*/
+  border-radius:100%;
+  font-weight: 800;
+  margin:0;
+  padding:0;
+  cursor:pointer;
+}
+nav ul{
+  display: inline-block;
+}
+nav li{
+  display:inline-block;
+}
+
+nav li::after{
+  /*content: "|";*/
+  margin-left: 1px;
+}
+.s-label{
+  margin-top:40px;
+}
+.search .s-label{
+  display:block;
+  margin-bottom:8px;
+}
+.searcher .magnify{
+  display:inline-block;
+  border:1px solid grey;
+  border-radius:5px;
+}
+.search input{
+  font-size:16px;
+  height:30px;
+  padding: 4px 5px 2px 5px;
+  background-color:white;
+  vertical-align:bottom;
+}
+.items{
+  display:inline-block;
+  font-size:16px;
+  border:1px solid grey;
+  border-radius:5px;
+  margin-top:30px;
+}
+.items-button, .items-display{
+  display:inline-block;
+  padding:5px 20px;
+}
+.items-display{
+  border-left:1px solid grey;
+  border-right: 1px solid grey;
+}
+.calendar{
+  padding:0;
+}
+.listing{
+  margin-bottom:15px;
+}
+.listing-date, .listing-loc{
+  color:lightgrey;
+}
+.listing-title{
+  font-weight:800;
+  margin-left:10px;
+  margin-right:10px;
+}
